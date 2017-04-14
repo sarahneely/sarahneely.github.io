@@ -25,7 +25,7 @@
 .box_2 {
   height: 18vh;
   border: 1px solid #242226;
-  background-color: #fff;
+  background-image: url("../img/giulia-bertelli-116358.jpg");
 }
 
 .box_3 {
@@ -66,4 +66,43 @@
   height: 100vh;
   padding-right: 0;
   margin-right: 0;
+}
+
+.right_top_bar {
+  height: 4vh;
+}
+
+.box_5 {
+  height: 37vh;
+  border: 1px solid #242226;
+  background-image: url("../img/sarah_river.jpg");
+}
+
+.box_6 {
+  height: 34vh;
+  border: 1px solid #242226;
+  background-color: #fff;
+}
+
+.box_7 {
+  height: 17vh;
+  border: 1px solid #242226;
+  background-color: #fff;
+}
+
+.box_8 {
+  height: 17vh;
+  border: 1px solid #242226;
+  background-color: #fff;
+}
+
+.box_9 {
+  height: 21vh;
+  border: 1px solid #242226;
+  background-color: #fff;
+}
+
+.social_icons {
+  text-align: right;
+  color: #d6d5da;
 }
