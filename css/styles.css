@@ -1,0 +1,69 @@
+.container-fluid {
+  padding: 0;
+}
+
+/*-----------LEFT COLUMN----------*/
+.left_clmn {
+  background-color: #d6d5da;
+  height: 100vh;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.contact_bar {
+  height: 8vh;
+  text-align: left;
+  color: #242226;
+}
+
+.box_1{
+  height: 15vh;
+  border: 1px solid #242226;
+  background-color: #fff;
+}
+
+.box_2 {
+  height: 18vh;
+  border: 1px solid #242226;
+  background-color: #fff;
+}
+
+.box_3 {
+  height: 18vh;
+  border: 1px solid #242226;
+  background-color: #fff;
+}
+
+.title_box {
+  height: 30vh;
+  background-color: #5a4c46;
+}
+
+.name {
+  font-family: 'Rock Salt', cursive;
+  color: #d6d5da;
+  text-align: left;
+  border-bottom: 1px solid #d6d5da;
+  padding-top: 28px;
+  padding-bottom: 15px;
+}
+
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #d6d5da;
+  text-align: left;
+  font-size: 20px;
+}
+
+.box_4 {
+  height: 18vh;
+  border: 1px solid #242226;
+  background-color: #fff;
+}
+/*---------RIGHT COLUMN----------*/
+.right_clmn {
+  background-color: #72745b;
+  height: 100vh;
+  padding-right: 0;
+  margin-right: 0;
+}
