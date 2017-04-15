@@ -101,9 +101,9 @@ body{
 }
 
 .box_9 {
-  height: 21vh;
+  height: 20vh;
   border: 1px solid #242226;
-  background-color: #fff;
+  background-image: url(../img/contact_me.jpg);
 }
 
 .social_icons {
