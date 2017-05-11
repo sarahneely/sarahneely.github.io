@@ -1,10 +1,20 @@
+/*UNIVERSAL INFORMATION*/
+/*COLORS:
+  dark blue: #242226;
+  grey: #D6D5DA;
+  Hunter green: #72745B;
+  tan: #A38679;
+  brown: #5A4C46;
+
+*/
+
 body{
   max-height: 100vh;
   max-width: 100vw;
 }
-.container-fluid {
+/*.container-fluid {
   padding: 0;
-}
+}*/
 
 /*-----------LEFT COLUMN----------*/
 .left_clmn {
@@ -23,19 +33,19 @@ body{
 .box_1{
   height: 15vh;
   border: 1px solid #242226;
-  background-color: #fff;
+  background-color: #242226;
 }
 
 .box_2 {
   height: 18vh;
-  border: 1px solid #242226;
+  border: 1px solid #A38679;
   background-image: url("../img/giulia-bertelli-116358.jpg");
 }
 
 .box_3 {
   height: 18vh;
-  border: 1px solid #242226;
-  background-color: #fff;
+  border: 1px solid #A38679;
+  background-color: #A38679;
 }
 
 .title_box {
@@ -61,15 +71,15 @@ body{
 
 .box_4 {
   height: 18vh;
-  border: 1px solid #242226;
-  background-color: #fff;
+  border: 1px solid #72745B;
+  background-color: #72745B;
 }
 /*---------RIGHT COLUMN----------*/
 .right_clmn {
   background-color: #72745b;
-  height: 100vh;
-  padding-right: 0;
-  margin-right: 0;
+  height: 100%;
+  /*padding-right: 0;
+  margin-right: 0;*/
 }
 
 .right_top_bar {
@@ -85,25 +95,25 @@ body{
 .box_6 {
   height: 34vh;
   border: 1px solid #242226;
-  background-color: #fff;
+  background-color: #242226;
 }
 
 .box_7 {
   height: 17vh;
-  border: 1px solid #242226;
-  background-color: #fff;
+  border: 1px solid #5A4C46;
+  background-color: #5A4C46;
 }
 
 .box_8 {
   height: 17vh;
-  border: 1px solid #242226;
-  background-color: #fff;
+  border: 1px solid #A38679;
+  background-color: #A38679;
 }
 
 .box_9 {
-  height: 21vh;
+  height: 20vh;
   border: 1px solid #242226;
-  background-color: #fff;
+  background-image: url(../img/contact_me.jpg);
 }
 
 .social_icons {
