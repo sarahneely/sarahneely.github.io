@@ -8,13 +8,14 @@
 
 */
 
-body{
+body {
   max-height: 100vh;
   max-width: 100vw;
 }
-/*.container-fluid {
-  padding: 0;
-}*/
+
+.box {
+  border-radius: 2px;
+}
 
 /*-----------LEFT COLUMN----------*/
 .left_clmn {
@@ -28,23 +29,23 @@ body{
   height: 8vh;
   text-align: left;
   color: #242226;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .box_1{
   height: 15vh;
-  border: 1px solid #242226;
   background-color: #242226;
 }
 
 .box_2 {
   height: 18vh;
-  border: 1px solid #A38679;
   background-image: url("../img/giulia-bertelli-116358.jpg");
 }
 
 .box_3 {
   height: 18vh;
-  border: 1px solid #A38679;
   background-color: #A38679;
 }
 
@@ -71,15 +72,13 @@ body{
 
 .box_4 {
   height: 18vh;
-  border: 1px solid #72745B;
+  /*border: 1px solid #72745B;*/
   background-color: #72745B;
 }
 /*---------RIGHT COLUMN----------*/
 .right_clmn {
   background-color: #72745b;
   height: 100%;
-  /*padding-right: 0;
-  margin-right: 0;*/
 }
 
 .right_top_bar {
@@ -88,7 +87,7 @@ body{
 
 .box_5 {
   height: 37vh;
-  border: 1px solid #242226;
+  border-bottom: 1px solid #242226;
   background-image: url("../img/sarah_river.jpg");
   position: relative;
 }
@@ -103,6 +102,13 @@ body{
   z-index: 1;
   display: none;
 }
+
+#about_btn {
+position: relative;
+top: 85%;
+left: 30%;
+}
+
 .box_5:hover #about {
   display: block;
 }
@@ -112,8 +118,6 @@ body{
   font-family: 'Rock Salt', cursive;
   color: #fff;
   visibility: hidden;
-  margin-top: 35px;
-  margin-left: 35px;
 }
 
 .box_5:hover .btn.btn-default#about_btn {
@@ -122,26 +126,23 @@ body{
 
 .box_6 {
   height: 34vh;
-  border: 1px solid #242226;
   background-color: #242226;
 }
 
 .box_7 {
   height: 17vh;
-  border: 1px solid #5A4C46;
   background-color: #5A4C46;
 }
 
 .box_8 {
   height: 17vh;
-  border: 1px solid #A38679;
   background-color: #A38679;
 }
 
 .box_9 {
   height: 20vh;
-  border: 1px solid #242226;
   background-image: url(../img/contact_me.jpg);
+  border-left: 1px solid #72745B;
 }
 
 .social_icons {
@@ -149,4 +150,25 @@ body{
   color: #d6d5da;
   padding-right: 5px;
   font-size: 20px;
+}
+
+/*-----POPUPS-----*/
+#about_popup {
+  position: absolute;
+  z-index: 2;
+  border: 5px solid #A38679;
+  background-color: #5A4C46;
+  top: 100%;
+  margin: 5%;
+  text-align: center;
+  color: #D6D5DA;
+  visibility: hidden;
+}
+
+#about_popup h2 {
+  font-family: 'Rock Salt', cursive;
+}
+
+#about_popup p {
+  font-family: 'Josefine', sans-serif;
 }
