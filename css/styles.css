@@ -90,6 +90,34 @@ body{
   height: 37vh;
   border: 1px solid #242226;
   background-image: url("../img/sarah_river.jpg");
+  position: relative;
+}
+
+#about{
+  background-color: rgba(90, 76, 70, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: none;
+}
+.box_5:hover #about {
+  display: block;
+}
+
+.btn.btn-default#about_btn {
+  background-color: rgb(90, 76, 70);
+  font-family: 'Rock Salt', cursive;
+  color: #fff;
+  visibility: hidden;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+.box_5:hover .btn.btn-default#about_btn {
+  visibility: visible;
 }
 
 .box_6 {
