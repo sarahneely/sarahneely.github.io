@@ -34,6 +34,9 @@ body {
   font-weight: bold;
 }
 
+.contact_bar p {
+  margin-bottom: 0px;
+}
 .box_1{
   height: 15vh;
   background-color: #242226;
@@ -78,7 +81,7 @@ body {
 /*---------RIGHT COLUMN----------*/
 .right_clmn {
   background-color: #72745b;
-  height: 100%;
+  height: 100vh;
 }
 
 .right_top_bar {
