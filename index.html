@@ -11,19 +11,40 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Rock+Salt" rel="stylesheet">
   <title>Sarah Neely</title>
 </head>
-<body>
+<body id="body">
 
-  <div class="container-fluid">
+  <div class="container-fluid"><!--About Pop Up -->
     <div class="row">
       <div class="col-md-12">
-        <div id="about_popup">
+        <div id="about_popup" class="popup">
           <h2>Sarah Neely</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nulla voluptates, exercitationem, illum iste excepturi accusantium numquam at sint! Excepturi adipisci facilis praesentium modi soluta laboriosam obcaecati sint, reprehenderit quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error at tempora perspiciatis perferendis inventore sed suscipit repudiandae corporis laboriosam vero placeat modi, minima omnis, atque, aut esse est velit nulla? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nesciunt provident odio dolore suscipit quibusdam amet, praesentium saepe nam facilis. Delectus, repellendus facere beatae asperiores eaque veritatis accusantium quis praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti accusamus eaque vel iste! Natus beatae, quae quod molestiae sint commodi, vero dicta incidunt sunt? Nemo dicta, nisi totam blanditiis eos.</p>
         </div>
       </div>
     </div>
   </div>
+  <div class="container-fluid"><!--My Work Pop Up -->
+    <div class="row">
+      <div class="col-md-12">
+        <div id="mywork_popup" class="popup">
+          <h2>My Work</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit commodi doloremque tempora, ipsum illo veniam nulla esse eius voluptatum dolor nisi alias. Quaerat dolore, voluptatem excepturi dolor veritatis molestias est.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam amet saepe repellat ducimus sequi tempora modi impedit possimus labore rerum, officiis animi fugit atque dolor explicabo voluptate? Explicabo, amet, aliquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum non suscipit dolores rem fugiat libero aperiam id autem illum, totam quo unde iste impedit, veritatis debitis amet voluptates cumque facere.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas magnam aliquid rem? Ratione necessitatibus, recusandae perspiciatis suscipit, minima, neque illo blanditiis ad minus, dignissimos quisquam. Quaerat odit repellat beatae adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis officiis ut earum ratione minima a quisquam! Molestias voluptatibus tenetur consequuntur iste debitis vitae eius, praesentium, ullam dicta odio blanditiis quod?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"><!--Contact Pop Up -->
+        <div id="contact_popup" class="popup">
+          <h2>Contact Me</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minima modi quam aut sint autem excepturi, eos dolorem, facere dolores quos magnam veniam, eligendi, laudantium voluptatem! Doloribus rem, consequuntur autem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos est vel praesentium, nostrum alias sapiente, laudantium reprehenderit similique accusamus voluptate debitis vitae architecto quae distinctio non, nam itaque dolores?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, cum, atque! Odio libero ducimus est consequuntur saepe, consectetur deserunt atque ipsa molestias, tempora rem laudantium eveniet aspernatur, deleniti debitis vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate reiciendis quo ex facere, vitae minima modi alias excepturi, numquam possimus quis ducimus! Id sunt deserunt repudiandae hic eveniet libero nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi neque accusantium enim laboriosam dolore tempore aperiam aut quas earum quibusdam veniam deleniti quam alias fuga, perspiciatis, velit cumque magnam sequi?</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+<!-- END POP UPS -->
 
   <div class="container-fluid"><!--grand container-->
   <div class="row">
@@ -40,7 +61,11 @@
         <div class="col-md-5 col-md-offset-7 box box_1"></div><!--box 1-->
       </div>
       <div class="row">
-        <div class="col-md-3 col-md-offset-6 box box_2"></div><!-- box 2 -->
+        <div class="col-md-3 col-md-offset-6 box box_2"><!-- box 2 -->
+          <div id="mywork">
+            <button class="btn btn-default" type="button" id="mywork_btn">My Work</button>
+          </div>
+        </div><!--My Work Open-->
         <div class="col-md-3 box_3"></div><!-- box 3 -->
       </div>
       <div class="row">
@@ -79,7 +104,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-5 box box_9"></div><!--box 9-->
+        <div class="col-md-5 box box_9"><!--contact open-->
+          <div id="contact">
+            <button class="btn btn-default" type="button" id="contact_btn">Contact Me</button>
+          </div>
+        </div><!--contact close-->
       </div>
       <div class="row">
         <div class="col-md-12 ">

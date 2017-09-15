@@ -2,9 +2,9 @@
 /*COLORS:
   dark blue: #242226;
   grey: #D6D5DA;
-  Hunter green: #72745B;
-  tan: #A38679;
-  brown: #5A4C46;
+  Hunter green: #72745B rgb(114,116,91);
+  tan: #A386790 rgb(163,134,121);
+  brown: #5A4C46 rgb(90,76,70);
 
 */
 
@@ -17,6 +17,9 @@ body {
   border-radius: 2px;
 }
 
+#body {
+
+}
 /*-----------LEFT COLUMN----------*/
 .left_clmn {
   background-color: #d6d5da;
@@ -45,6 +48,38 @@ body {
 .box_2 {
   height: 18vh;
   background-image: url("../img/giulia-bertelli-116358.jpg");
+}
+
+#mywork {
+  background-color: rgba(114, 116, 91, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: none;
+}
+
+#mywork_btn {
+  position: relative;
+  top: 60%;
+  left: 25%;
+}
+
+.box_2:hover #mywork {
+  display: block;
+}
+
+.btn.btn-default#mywork_btn{
+  background-color: #72745B;
+  font-family: 'Rock Salt', cursive;
+  color: #fff;
+  visibility: hidden;
+}
+
+.box_2:hover .btn.btn-default#mywork_btn {
+  visibility: visible;
 }
 
 .box_3 {
@@ -96,7 +131,7 @@ body {
 }
 
 #about{
-  background-color: rgba(90, 76, 70, 0.5);
+  background-color: rgba(163, 134, 121, 0.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -117,7 +152,7 @@ left: 30%;
 }
 
 .btn.btn-default#about_btn {
-  background-color: rgb(90, 76, 70);
+  background-color: rgb(163, 134, 121);
   font-family: 'Rock Salt', cursive;
   color: #fff;
   visibility: hidden;
@@ -148,6 +183,38 @@ left: 30%;
   border-left: 1px solid #72745B;
 }
 
+#contact{
+  background-color: rgba(90, 76, 70, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: none;
+}
+
+#contact_btn {
+position: relative;
+top: 70%;
+left: 23%;
+}
+
+.box_9:hover #contact {
+  display: block;
+}
+
+.btn.btn-default#contact_btn {
+  background-color: rgb(90, 76, 70);
+  font-family: 'Rock Salt', cursive;
+  color: #fff;
+  visibility: hidden;
+}
+
+.box_9:hover .btn.btn-default#contact_btn {
+  visibility: visible;
+}
+
 .social_icons {
   text-align: right;
   color: #d6d5da;
@@ -156,22 +223,23 @@ left: 30%;
 }
 
 /*-----POPUPS-----*/
-#about_popup {
+.popup {
   position: absolute;
   z-index: 2;
-  border: 5px solid #A38679;
-  background-color: #5A4C46;
   top: 100%;
   margin: 5%;
+  padding: 5px;
   text-align: center;
-  color: #D6D5DA;
   visibility: hidden;
+  border: 15px solid #A38679;
+  background-color: #72745B;
+  color: #242226;
 }
 
-#about_popup h2 {
+.popup h2 {
   font-family: 'Rock Salt', cursive;
 }
 
-#about_popup p {
+.popup p {
   font-family: 'Josefine', sans-serif;
 }
