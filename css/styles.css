@@ -3,7 +3,7 @@
   dark blue: #242226;
   grey: #D6D5DA;
   Hunter green: #72745B rgb(114,116,91);
-  tan: #A386790 rgb(163,134,121);
+  tan: #A38679 rgb(163,134,121);
   brown: #5A4C46 rgb(90,76,70);
 
 */
@@ -242,4 +242,16 @@ left: 23%;
 
 .popup p {
   font-family: 'Josefine', sans-serif;
+}
+
+#close_work {
+  text-align: center;
+  background-color: #d6d5da;
+  color: #242226;
+  font-family: 'Rock Salt', cursive;
+  text-decoration: none;
+  border-radius: 2px;
+  border-style: none;
+  border-color: inherit;
+  border-image: none;
 }
