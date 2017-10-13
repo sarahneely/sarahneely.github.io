@@ -11,7 +11,75 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Rock+Salt" rel="stylesheet">
   <title>Sarah Neely</title>
 </head>
-<body>
+<body id="body">
+
+  <div class="container-fluid"><!--About Pop Up -->
+    <div class="row">
+      <div class="col-md-12">
+        <div id="about_popup" class="popup">
+          <h2>Sarah Neely</h2>
+          <p>Being raised in California's Central Valley has afforded me a wonderful childhood! Being raised so close to three major national parks nurtured my sense of adventure and love of the outdoors. <br> Showing a clear and concise design through marketing and web development while keeping pages adventrous and exciting helps me merge my two passions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid"><!--My Work Pop Up -->
+    <div class="row">
+      <div class="col-md-12">
+        <div id="mywork_popup" class="popup">
+          <h2>My Work</h2>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="img/pet_store.jpg" alt="Four puppies running in a field">
+                <div class="caption">
+                  <h3>Pet Store</h3>
+                  <p>...</p>
+                  <p><a href="../pet-store-sarahneely/index.html" class="btn btn-primary" role="button" target="_blank">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+              </div>
+            </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/restaurant-2.jpg" alt="tables in a restaruant">
+                  <div class="caption">
+                    <h3>Restaurante</h3>
+                    <p>...</p>
+                    <p><a href="../feb-march-restaurante-sarahneely/index.html" class="btn btn-primary" role="button" target="_blank">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/og_folio.jpg" alt="Field of flowers under a big blue sky">
+                  <div class="caption">
+                    <h3>Original Portfolio</h3>
+                    <p>...</p>
+                    <p><a href="../original_portfolio/index.html" class="btn btn-primary" role="button" target="_blank">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                  </div>
+                </div>
+              </div>
+          <div class="row">
+            <div class="col-md-12">
+              <button id="close_work">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"><!--Contact Pop Up -->
+        <div id="contact_popup" class="popup">
+          <h2>Contact Me</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minima modi quam aut sint autem excepturi, eos dolorem, facere dolores quos magnam veniam, eligendi, laudantium voluptatem! Doloribus rem, consequuntur autem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quos est vel praesentium, nostrum alias sapiente, laudantium reprehenderit similique accusamus voluptate debitis vitae architecto quae distinctio non, nam itaque dolores?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, cum, atque! Odio libero ducimus est consequuntur saepe, consectetur deserunt atque ipsa molestias, tempora rem laudantium eveniet aspernatur, deleniti debitis vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate reiciendis quo ex facere, vitae minima modi alias excepturi, numquam possimus quis ducimus! Id sunt deserunt repudiandae hic eveniet libero nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi neque accusantium enim laboriosam dolore tempore aperiam aut quas earum quibusdam veniam deleniti quam alias fuga, perspiciatis, velit cumque magnam sequi?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- END POP UPS -->
+
   <div class="container-fluid"><!--grand container-->
   <div class="row">
     <div class="col-md-7 left_clmn"><!--left column-->
@@ -23,21 +91,25 @@
           </p>
         </div>
       </div>
-      <div class="row"> <!--box 1-->
-        <div class="col-md-5 col-md-offset-7 box_1"></div>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-7 box box_1"></div><!--box 1-->
       </div>
       <div class="row">
-        <div class="col-md-3 col-md-offset-6 box_2"></div><!-- box 2 -->
+        <div class="col-md-3 col-md-offset-6 box box_2"><!-- box 2 -->
+          <div id="mywork">
+            <button class="btn btn-default" type="button" id="mywork_btn">My Work</button>
+          </div>
+        </div><!--My Work Open-->
         <div class="col-md-3 box_3"></div><!-- box 3 -->
       </div>
       <div class="row">
-        <div class="col-md-8 col-md-offset-4 title_box"><!--title box-->
+        <div class="col-md-8 col-md-offset-4 box title_box"><!--title box-->
           <h1 class="name">Sarah Neely</h1>
           <p class="title">Marketing | Design | Development</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-md-offset-8 box_4"></div><!--box 4-->
+        <div class="col-md-4 col-md-offset-8 box box_4"></div><!--box 4-->
       </div>
     </div>
 
@@ -48,21 +120,29 @@
         <div class="col-md-12 right_top_bar"></div>
       </div>
       <div class="row">
-        <div class="col-md-6 box_5"></div>
+        <div class="col-md-6 box box_5"><!--About Me Open-->
+          <div id="about">
+            <button class="btn btn-default" type="button" id="about_btn">About Me</button>
+          </div>
+        </div><!--About Me Close-->
       </div>
       <div class="row">
-        <div class="col-md-3 box_6"></div><!--box 6-->
+        <div class="col-md-3 box box_6"></div><!--box 6-->
         <div class="col-md-4">
           <div class="row">
-            <div class="col-md-12 box_7"></div><!--box 7-->
+            <div class="col-md-12 box box_7"></div><!--box 7-->
           </div>
           <div class="row">
-            <div class="col-md-12 box_8"></div><!--box 8-->
+            <div class="col-md-12 box box_8"></div><!--box 8-->
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-5 box_9"></div><!--box 9-->
+        <div class="col-md-5 box box_9"><!--contact open-->
+          <div id="contact">
+            <button class="btn btn-default" type="button" id="contact_btn">Contact Me</button>
+          </div>
+        </div><!--contact close-->
       </div>
       <div class="row">
         <div class="col-md-12 ">
@@ -77,6 +157,8 @@
     </div>
   </div>
   </div>
+
+
 
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
